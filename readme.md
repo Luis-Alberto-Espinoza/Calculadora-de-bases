@@ -13,8 +13,10 @@ Este proyecto es una calculadora básica en Java que permite realizar operacione
 2. Ingresa los dos números que deseas sumar o restar cuando se solicite.
 
 ![inicio](./capturas/primerValor.png) ![inicio](./capturas/segundoValor.png)
+
 3. Selecciona el tipo de operación que deseas realizar (suma o resta) a través del cuadro de diálogo emergente.
 ![elegir operación](./capturas/elegiroperacion.png)
+
 4. El resultado de la operación se mostrará en binario y decimal a través de otro cuadro de diálogo.
 ![Resultado](./capturas/resultado_suma.png) ![Resultado](./capturas/resultado_resta.png) 
 
