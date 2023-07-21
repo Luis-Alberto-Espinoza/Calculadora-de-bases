@@ -58,20 +58,20 @@ public class Servicio {
     }
 
     // De Binario a decimal
-    public static String binarioAdecimal(String numero) {
-        String nBinario = numero;
-        String resultado;
-        int sumador = 0;
-        int valor = (Integer.parseInt(numero));
-        int ultimo = 0;
-        int hasta = numero.toString().length();
-        for (int i = 0; i < hasta; i++) {
-            ultimo = valor % 10;// se guarda el resto de cada division
-            ultimo = (int) (ultimo * (Math.pow(2, i)));//se multiplica el resto por dos elevado a la potencia que marque i
-            valor = valor / 10;// se actualiza el valor a operar sacando el ultimo digito
-            sumador += ultimo;// se va formando en String el numero decimal
-        }
-        resultado = String.valueOf(sumador);
-        return resultado;
-    }
+//    public static String binarioAdecimal(String numero) {
+//        String nBinario = numero;
+//        String resultado;
+//        int sumador = 0;
+//        int valor = (Integer.parseInt(numero));
+//        int ultimo = 0;
+//        int hasta = numero.toString().length();
+//        for (int i = 0; i < hasta; i++) {
+//            ultimo = valor % 10;// se guarda el resto de cada division
+//            ultimo = (int) (ultimo * (Math.pow(2, i)));//se multiplica el resto por dos elevado a la potencia que marque i
+//            valor = valor / 10;// se actualiza el valor a operar sacando el ultimo digito
+//            sumador += ultimo;// se va formando en String el numero decimal
+//        }
+//        resultado = String.valueOf(sumador);
+//        return resultado;
+//    }
 }
